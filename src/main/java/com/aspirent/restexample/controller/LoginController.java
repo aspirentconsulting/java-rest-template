@@ -10,6 +10,8 @@ import com.aspirent.restexample.model.User;
 @RequestMapping("/login")
 public class LoginController {
 
+	public LoginController() { }
+
     @GetMapping("greet")
     public String greet() {
         return "Hello!";
